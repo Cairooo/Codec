@@ -1,0 +1,246 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.external-line {
+  position: relative;
+  border: solid 1px #3a6f43;
+  height: 370px;
+  width: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+.ptt {
+  height: 34px;
+  width: 170px;
+  background-color: #3a6f43;
+  border: none;
+}
+
+.ptt p {
+  font-family: "Michroma";
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  padding-left: 16px;
+  letter-spacing: 15px;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.frequency {
+  position: relative;
+  top: 46px;
+  border: solid 1px #3a6f43;
+  height: 200px;
+  width: 300px;
+}
+
+.bar1 {
+  border: solid #1f5036 7px;
+  width: 270px;
+}
+
+.bar2 {
+  position: relative;
+  top: 3px;
+  width: 240px;
+  border: solid #1f5036 7px;
+}
+
+.bar3 {
+  position: relative;
+  top: 6px;
+  width: 210px;
+  border: solid #1f5036 7px;
+}
+
+.bar4 {
+  position: relative;
+  top: 9px;
+  width: 180px;
+  border: solid #1f5036 7px;
+}
+
+.bar5 {
+  position: relative;
+  top: 12px;
+  width: 150px;
+  border: solid #1f5036 7px;
+}
+
+.bar6 {
+  position: relative;
+  top: 15px;
+  width: 120px;
+  border: solid #1f5036 7px;
+}
+
+.bar7 {
+  position: relative;
+  top: 18px;
+  width: 90px;
+  border: solid #1f5036 7px;
+}
+
+.bar8 {
+  position: relative;
+  top: 21px;
+  width: 68px;
+  border: solid #1f5036 7px;
+}
+
+.bar9 {
+  position: relative;
+  top: 24px;
+  width: 40px;
+  border: solid #1f5036 7px;
+}
+
+.bar10 {
+  position: relative;
+  top: 27px;
+  width: 28px;
+  border: solid #1f5036 7px;
+}
+
+.bar11 {
+  position: relative;
+  top: 30px;
+  width: 15px;
+  border: solid #1f5036 7px;
+}
+
+.bar12 {
+  position: relative;
+  top: 33px;
+  width: 5px;
+  border: solid #1f5036 7px;
+}
+
+.frequency p {
+  position: relative;
+  top: -77px;
+  left: 70px;
+  font-size: 44px;
+  font-family: "Michroma";
+  color: white;
+}
+
+.left {
+  position: absolute;
+  top: 42%;
+  left: 6%;
+  display: flex;
+  justify-content: start;
+}
+
+.left-arrow {
+  border: none;
+  height: 40px;
+  width: 80px;
+  background-color: #3a6f43;
+  margin: 0;
+  padding: 0;
+}
+
+.left-triangle {
+  width: 0;
+  height: 0;
+  margin-left: 30px;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 25px solid white;
+}
+
+.right {
+  position: absolute;
+  top: 42%;
+  left: 81%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.right-arrow {
+  border: none;
+  height: 40px;
+  width: 80px;
+  background-color: #3a6f43;
+  margin: 0;
+  padding: 0;
+}
+
+.right-triangle {
+  width: 0;
+  height: 0;
+  margin-left: 22px;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 25px solid white;
+}
+
+.down {
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.memory {
+  height: 34px;
+  width: 170px;
+  border: none;
+  background-color: #3a6f43;
+}
+
+.memory p {
+  color: white;
+  font-family: "Michroma";
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.pressed {
+  box-shadow: 0 0px 0px 0 white;
+  opacity: 0.5;
+}
+
+@keyframes glow {
+  0% {
+    border-color: #67c090;
+    box-shadow: 0 0 5px #67c090, 0 0 10px #67c090;
+  }
+  50% {
+    border-color: #7ccea2;
+    box-shadow: 0 0 10px #7ccea2, 0 0 20px #7ccea2;
+  }
+  100% {
+    border-color: #a8f7cd;
+    box-shadow: 0 0 5px #a8f7cd, 0 0 15px #a8f7cd;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 430px) {
+  .frequency {
+    height: 140px;
+  }
+}
